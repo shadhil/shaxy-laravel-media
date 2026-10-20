@@ -2,7 +2,7 @@
 
 Reusable extraction of your supplied media implementation for PHP 8.4+, Laravel 13 and Intervention Image 4.1+. Uses GD with WebP support. Package name: `shaxy/laravel-media`.
 
-## Install in the existing IslamTZ API
+## Install in the existing project
 
 1. Extract this folder to `packages/shaxy/laravel-media` in the API project. The package's composer.json must be directly inside that directory.
 2. Add this entry to the root composer.json `repositories` array, preserving existing entries:
