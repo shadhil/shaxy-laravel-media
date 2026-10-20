@@ -1,0 +1,28 @@
+{
+  "name": "shaxy/laravel-media",
+  "description": "Laravel media storage, image variants and Eloquent media indexing.",
+  "type": "library",
+  "license": "proprietary",
+  "require": {
+    "php": "^8.4",
+    "ext-gd": "*",
+    "ext-fileinfo": "*",
+    "illuminate/support": "^13.0",
+    "illuminate/database": "^13.0",
+    "illuminate/filesystem": "^13.0",
+    "illuminate/http": "^13.0",
+    "intervention/image": "^4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Shaxy\\Media\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Shaxy\\Media\\MediaServiceProvider"
+      ]
+    }
+  }
+}
